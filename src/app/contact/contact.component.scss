@@ -1,0 +1,56 @@
+.contact-wrapper {
+    background-color: rgb(160,207,188);
+    display: flex;
+    height: 500px;
+}
+
+.left {
+    width: 50%;
+    height: 80%;
+    margin-left: 16%;
+}
+
+.right {
+    background-color: rgb(160,207,188);
+    width: 50%;
+    height: 80%;
+
+    .formular-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .formular-inputfield {
+        height: 27px;
+        width: 276px;
+        border: none;
+    }
+
+    .formular-message {
+        height: 250px;
+        width: 276px;
+        border: none;
+    }
+
+    .formular-btn {
+        background-color: rgba(15,15,16);
+        color: whitesmoke;
+        margin-top: 10px;
+    }
+
+    .input-title {
+        margin-left: -236px;
+    }
+}
+
+.form-control.ng-touched.ng-invalid {
+    border: 1px solid red;
+    //border-radius: 3px;
+}
+
+.form-control.ng-touched.ng-valid {
+    border: 1px solid green;
+    //border-radius: 3px;
+}

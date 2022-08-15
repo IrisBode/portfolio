@@ -1,0 +1,27 @@
+h2 {
+    margin-left: 16%;
+    font-size: 54px;
+}
+
+.about-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem;
+}
+
+.picture-wrapper {
+    
+}
+
+.about-picture{
+    background-image: url("/assets/img/maschsee.jpg");
+    background-repeat: no-repeat;
+}
+
+.card {
+    width: 300px;
+    background-color: rgb(160, 207, 188);
+    font-size: 12px;
+    
+}

@@ -1,0 +1,39 @@
+<div class="contact-wrapper" id="contact">
+    <div class="left">
+        <h2>Let's talk business</h2>
+        <div class="contact-text">
+            <div>Now that you know a lot about me, let me know, if you are<br>
+                 interested to work with me.</div>
+        </div>
+    </div>
+
+
+    <div class="right">
+
+    <form [formGroup]="getform"
+         class="formular-wrapper">
+            <span class="input-title">Name</span>
+            <input class="form-control formular-inputfield" formControlName="name"  placeholder="enter your name" >
+             <small *ngIf="getform.get('name').invalid && getform.get('name').touched">Message is Required (minimum
+                length 10)</small>
+
+
+         <span class="input-title">Email</span>
+            <input class="form-control formular-inputfield"  formControlName="email" placeholder="enter your email" >
+            <small *ngIf="getform.get('email').invalid && getform.get('email').touched">Message is Required
+            </small>
+
+
+            <span class="input-title">Message</span>
+            <textarea class="form-control formular-message"  formControlName="message" minlength="20" maxlength="2000"placeholder="enter your message" ></textarea>
+            <small *ngIf="getform.get('message').invalid && getform.get('message').touched">Message is Required (minimum
+                length 10)</small>
+
+
+            <button (click)="submit()" class="formular-btn">LET'S GET STARTED</button>
+         
+    </form>
+      
+    </div>
+</div>
+

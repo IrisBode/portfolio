@@ -1,0 +1,27 @@
+.navbar-wrapper {
+    width: 100%;
+    display: flex;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLinks {
+    margin-top: 30px;
+    margin-left: 50px;
+
+    a {
+        text-decoration: none;
+        color: #000000a1;
+        margin-left: 25px,
+    }
+
+    &:hover {
+        color:rgb(29, 6, 144);
+        scale: (1.1);
+    }
+}

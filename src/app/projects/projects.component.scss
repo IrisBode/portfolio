@@ -1,0 +1,52 @@
+h2 {
+    margin-left: 16%;
+}
+
+.project-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem;
+}
+
+.project-picture{
+    background-image: url("/assets/img/join.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 247px;
+    height: auto;
+}
+
+.project-picture-business {
+    background-image: url("/assets/img/join.jpg");
+}
+
+.project-picture-portfolio {
+    background-image: url("/assets/img/join.jpg");
+}
+
+.project-description {
+    padding-left: 8%;
+}
+
+.project-btn {
+    margin-right: 8px;
+    padding: 0.2rem 1rem;
+    border: none;
+    background-color: rgb(160,207,188);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .icon-btn {
+        height: 20px;
+        width: 20px;
+    
+        
+    }
+}
+
+
+

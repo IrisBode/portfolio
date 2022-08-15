@@ -1,0 +1,62 @@
+.keyvisual {
+    height: calc( 100vh - 56px);
+    width: 100%;
+    display: flex;
+   
+}
+
+.left {
+    width: 50%;
+    height: 80%;
+    margin-left: 16%;
+    
+    h1 {
+        margin-top: 8%;
+        font-size: 5rem;
+        letter-spacing: 1rem;
+     }
+
+    .download-btn {
+        margin-top: 4rem;
+        padding: 1rem 2rem;
+        letter-spacing: 6px;
+        border: none;
+        background-color: rgb(160,207,188);
+
+        &:hover {
+            letter-spacing: 10px;
+            transform: scale(1.1);
+
+        }
+    }
+}
+
+.right {
+    width:150vw;
+    height: 100vh;
+
+    .profil-pic {
+        background-image: url("/assets/img/platzhalter1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 70%;
+        object-fit: cover;
+        position: relative;
+       // filter: grayscale(1);
+        border-radius: 59% 41% 70% 30% / 39% 19% 81% 61% ;
+    }
+
+    &::after {
+        content: "";
+        background-color: #f6f6f6;
+        border-radius: 29% 41% 70% 30%/39% 19% 81% 61%;
+        height: 114%;
+        width: 99%;
+        position: absolute;
+        top: -60px;
+        z-index: -10;
+        left: -6px;
+    }
+}
+
