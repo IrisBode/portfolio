@@ -37,6 +37,8 @@
 
     .profil-pic {
         background-image: url("/assets/img/platzhalter1.jpg");
+        position: absolute;
+        z-index: 10;
         background-size: cover;
         background-repeat: no-repeat;
         width: 90%;
